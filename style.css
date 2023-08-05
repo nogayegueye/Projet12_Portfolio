@@ -1,0 +1,217 @@
+.wrapper {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+.nav a {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  color: #c97efd;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+.nav-name span{
+  font-family: "shrikhand", "sans-serif";
+  padding-right: 5px;
+}
+h1{
+  font-family: "shrikhand", "sans-serif";
+  font-size: 28px;
+}
+.main-apropos-img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 100px;
+  object-fit: cover;
+}
+.main-description {
+}
+.main-description p {
+  font-size: px;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  /* text-align: center; */
+}
+#apropos {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(https://abbaye-de-cadouin.com/wp-content/uploads/2017/03/ornement-fond-page.png);
+}
+.main-barre{
+  border: 1px solid #666;
+  margin-top: 60px;
+}
+.main-barre-top{
+  border: 1px solid #666;
+  margin-bottom: 50px;
+}
+#mesrealisations {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.bloc-real {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.cube-main-real-card {
+  background-color: white;
+  padding: 1%;
+  box-shadow: 1px 1px 5px #d3d3d3;
+}
+.cube-main-real-card:hover .cube-details-card {
+  opacity: 1;
+  max-height: 200px;
+  padding: 10px;
+}
+.main-real h1 {
+  text-align: center;
+  margin: 50px;
+}
+.cube-details-card {
+  width: 90%;
+  color: #2c3e50;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: opacity 0.3s ease, max-height 0.8s ease;
+}
+.main-real-card {
+  flex-basis: 40%;
+  margin: 20px 0;
+}
+.main-real-card a {
+  text-decoration: none;
+}
+.cube-details-card h1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.cube-details-card p {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.img-card {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+#mescompetences {
+  padding: 20px 20px 100px 20px;
+  background-image: url(https://abbaye-de-cadouin.com/wp-content/uploads/2017/03/ornement-fond-page.png);
+}
+.main-competences-title {
+  text-align: center;
+}
+.main-competences {
+}
+.main-competences-cube {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.fa-2x {
+  margin-right: 20px;
+}
+.html {
+  background-color: #e44d26;
+  width: 40%;
+  margin-top: 50px;
+}
+.css {
+  background-color: #2965f1;
+  width: 50%;
+}
+.sass {
+  background-color: #cf649a;
+  width: 60%;
+}
+.js {
+  background-color: #f0db4f;
+  width: 70%;
+}
+.react {
+  background-color: #61dafb;
+  width: 80%;
+}
+.php {
+  background-color: #00758f;
+  width: 90%;
+}
+.wordpress {
+  background-color: #21759b;
+}
+#footer {
+  text-align: center;
+  padding: 40px 0;
+  color: #FFF;
+  background: #333;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-sm-12 {
+  width: 100%;
+}
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.social-links a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  line-height: 37px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, .8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 14px;
+  color: rgba(255, 255, 255, .8);
+  margin: 10px;
+}
