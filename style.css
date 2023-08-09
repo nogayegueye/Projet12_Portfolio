@@ -1,6 +1,7 @@
 .wrapper {
   padding: 0;
   margin: 0;
+  font-family: "rubik", "sans-serif";
 }
 .nav {
   display: flex;
@@ -33,11 +34,11 @@
   font-size: 18px;
   /* font-weight: bold; */
 }
-.nav-name span{
+.nav-name span {
   font-family: "shrikhand", "sans-serif";
   padding-right: 5px;
 }
-h1{
+h1 {
   font-family: "shrikhand", "sans-serif";
   font-size: 28px;
 }
@@ -49,26 +50,25 @@ h1{
   object-fit: cover;
 }
 .main-description {
+  line-height: 2;
 }
 .main-description p {
   font-size: px;
   color: #333;
   line-height: 1.6;
   text-align: justify;
-  /* text-align: center; */
 }
 #apropos {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
   background-image: url(https://abbaye-de-cadouin.com/wp-content/uploads/2017/03/ornement-fond-page.png);
 }
-.main-barre{
+.main-barre {
   border: 1px solid #666;
   margin-top: 60px;
 }
-.main-barre-top{
+.main-barre-top {
   border: 1px solid #666;
   margin-bottom: 50px;
 }
@@ -178,7 +178,7 @@ h1{
 #footer {
   text-align: center;
   padding: 40px 0;
-  color: #FFF;
+  color: #fff;
   background: #333;
 }
 .container {
@@ -207,11 +207,47 @@ h1{
   display: block;
   line-height: 37px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, .8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   font-size: 14px;
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
   margin: 10px;
+}
+@media screen and (max-width: 992px) {
+  .nav-item {
+    margin-right: 0;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+  }
+  .nav a {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .nav-name {
+    font-size: 12px;
+  }
+  #apropos {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-apropos-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 0;
+    margin: 20px;
+  }
+  .bloc-real {
+    width: 100%;
+  }
+  .html, .css, .sass, .js, .react, .php, .wordpress {
+  width: 80%;
+}
+
 }
