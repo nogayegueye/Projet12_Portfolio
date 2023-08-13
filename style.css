@@ -32,7 +32,6 @@
   display: flex;
   align-items: center;
   font-size: 18px;
-  /* font-weight: bold; */
 }
 .nav-name span {
   font-family: "shrikhand", "sans-serif";
@@ -43,7 +42,6 @@ h1 {
   font-size: 28px;
 }
 .main-apropos-img img {
-  height: 300px;
   width: 300px;
   border-radius: 50%;
   margin: 100px;
@@ -53,7 +51,6 @@ h1 {
   line-height: 2;
 }
 .main-description p {
-  font-size: px;
   color: #333;
   line-height: 1.6;
   text-align: justify;
@@ -238,7 +235,6 @@ h1 {
     align-items: center;
   }
   .main-apropos-img img {
-    height: 200px;
     width: 200px;
     border-radius: 0;
     margin: 20px;
